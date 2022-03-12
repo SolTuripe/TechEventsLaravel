@@ -43,7 +43,7 @@ These instructions will allow you to get a working copy of the project on your l
 
 Open the terminal and run:
 
-1. Clone git https://github.com/.git to download the project.
+1. Clone git https://github.com/SolTuripe/TechEventsLaravel.git to download the project.
 2. Create a table in your database with the name "tech-events".
 3. Run Migracion "php artisant migration:fresh --seed"
 
