@@ -1,118 +1,109 @@
 <p align="center"><img src="./public/img/Readme.MD/CradaLogoGat.png?raw=true" width="200"></a></p>
 
-CRADA Tech Events📌
+Tech Events 🔆
 ============
 
 ***
 
-## Introducción🚀 
+## Introduction 💫
 
-El proyecto "CRADA TECH EVENTS", es una aplicación web para gestionar cursos online como talleres, masterclass o webinars.Los usuarios podrán ver la descripción de un evento, apuntarse y desapuntarse. Podrán ver la lista de los eventos a los que se han apuntado. El administrador tiene las herramientas para la gestión (CRUD) de los eventos.
-## Objetivos de la práctica🛫 
+The "CRADA TECH EVENTS" project is a web application to manage online courses such as workshops, masterclasses or webinars. Users will be able to see the description of an event, sign up and unsubscribe. They will be able to see the list of events they have signed up for. The administrator has the tools for the management (CRUD) of the events.
 
-1.- Aplicar el patrón MVC (Model, View, Controller).
+## Practice goals 🛫 
 
-2.- Aplicar testing.
+1.- Apply the MVC pattern (Model, View, Controller).
 
-3.- Introducirnos a las bases de Laravel.
+2.- Apply testing.
 
-4.- Entender componentes de vistas y controladores.
+3.- Introduce us to the basics of Laravel.
 
-5.- Practicar el proceso de contrucción de elementos y su vinculación.
+4.- Understand components of views and controllers.
+
+5.- Practice the process of building elements and linking them.
 
 
-## Estructura 📚 
+## Structure 🧬
 
-- Requisitos Funcionales 🎯:
-
-    - En portada la aplicación tendrá un slider con las masterclasses destacadas. éstas serán seleccionables por el administrador.
-    - En portadase muestra una vista con los eventos ordenados del más cercano al más lejano en el tiempo.
-    - Los eventos incluyen como: título, fecha/hora, número máximo de participantes, descripción y una imagen.
-    - Los eventos pasados se muestran en la vista de pasados pero se mantienen identificables como no disponibles.
-    - Los usuarios puede registrarse para apuntarse a un evento. Una vez apuntados no pueden volver a hacerlo.
-    - Al apuntarse a un evento, recibirán un email (empresarial - html ) con el link (zoom, meets, etc..) en donde se va a realizar, así como recordando el título del evento, la hora y el día.
-    - Los usuarios pueden ver en una página la lista de los eventos a los que están registrados.
-    - El administrador podrá hacer CRUD de los eventos.
-    - Cuando un evento esté lleno (máximo número de participantes) nadie podrá registrarse.
-    - Test de aceptación.
-    - Envío de el email se realiza por sistema de colas.
-    - Para el Frontend, se usan componentes de blade.
+   - On the cover, the application will have a slider with the featured masterclasses. These will be selectable by the administrator.
+   - The cover shows a view with the events ordered from the closest to the furthest in time.
+   - The events include such as: title, date/time, maximum number of participants, description and an image.
+   - Past events are displayed in the past view but remain identifiable as unavailable.
+   - Users can register to sign up for an event. Once signed up they cannot do it again.
+   - When signing up for an event, the user will receive an email (business - html ) with the link (zoom, meets, etc..) where it will take place, as well as remembering the title of the event, the time and the day.
+   - Users can see on one page the list of events they are registered for.
+   - The administrator will be able to CRUD the events.
+   - When an event is full (maximum number of participants) no one will be able to register.
+   - Acceptance test.
+   - Sending the email is done by queuing system.
+   - For the Frontend, blade components are used.
     
-## Comenzando 🚀 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local, para propósitos de desarrollo y pruebas:
+## Starting 🚀 
 
-Abre la terminal y ejecuta:
+These instructions will allow you to get a working copy of the project on your local computer, for development and testing purposes:
 
-1. Clone git https://github.com/.git para descargar el proyecto, realiza un fork.
-2. Crear una base de datos en phpMyAdmin en local.
-3. Nombre de base de datos : tech-events
-4. Ejecutar Migracion "php artisant migration:fresh --seed"
+Open the terminal and run:
 
-## Install
+1. Clone git https://github.com/.git to download the project.
+2. Create a table in your database with the name "tech-events".
+3. Run Migracion "php artisant migration:fresh --seed"
+
+### Install
 
 - composer install
 - npm run watch
 - npm run dev
 
-## 🚀 Proyecto en producción
+## Wireframe 🪧
 
-Dónde encontrar el proyecto en producción:
-
-## Wireframe 🛸
-Wireframe de la idea principal del proyecto con funcionalidad:
+Wireframe of the main idea of ​​the project with functionality:
 
 <p align="center"> 
   <img src="./public/img/Readme.MD/movil.png?raw=true" width=60%>
   <img src="./public/img/Readme.MD/destopk.png?raw=true" width=60%>
 </p>
 
-
-
-## Versión Desktop 🛰️
+## Desktop version 🖥
 
 <p align="center">
   <img src="./public/img/Readme.MD/crada-destopk.gif" alt="animated" width=60% />
 </p>
 
 
-## Versión Mobile First 🪐
+## Mobile version 📱
+
 <p align="center">
   <img src="./public/img/Readme.MD/crada-movil.gif" alt="animated"  />
 </p>
 
 
-## Dependencias 🚁
+## Dependencies ⚙
 
-* Frontend: Boostrap HTML, CSS, SCSS - Opcional.
-* Backend: PHP, laravel.
-* Bases de datos: MySQL.
-## Herramientas  🧰 
+* Frontend: Boostrap, HTML, CSS.
+* Backend: Laravel, PHP.
+* Database: MySQL.
 
-* Miró
+## Tools 🧰 
+
+* Miro
 * Figma
 * Mockup Ninja
 * Trello
 * Font-face
-* Metodologías Ágiles
+* Agile methodologies
 * Bootstrap
 * Laravel
 * SQL
 * PHP-MyAdmin
 
-## Autores🌻 
-* Sol Turipe.
-* Cecilia Carbajal.
-* Clàudia Calero Duró.
-* Davina Medina.
-* Miquel Cruz.
-* Abdessamad Belkhialat.
+## Authors 👩‍💻
 
+* [Sol Turipe](https://github.com/SolTuripe)
+* [Cecilia Carbajal](https://github.com/belcar-ceci)
+* [Clàudia Calero Duró](https://github.com/ClaudiaCalero)
+* [Davina Medina](https://github.com/Davina-dev)
+* [Miquel Cruz](https://github.com/mcc72)
 
-## Gratitud 🎁
-* Comenta a otros sobre este proyecto 📢 .
-* Apoya nuestros proyectos 🐈‍⬛.
-* Hecho con  ❤️ por [CRADA 🐱](https://github.com/crada2/TechEventsLaravel)
-
-
-
-
+## Gratitude 🎁
+* Tell others about this project 📢 
+* Support our projects ⭐
+* Made with  ❤️ by [CRADA 🐱](https://github.com/crada2)
